@@ -1,0 +1,31 @@
+{
+  "name": "bg-name-days",
+  "version": "1.0.0",
+  "description": "Bulgarian name days calendar library. Pure JavaScript, zero dependencies. 500+ names with variants, diminutives, and Latin transliteration.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test tests/index.test.js"
+  },
+  "keywords": [
+    "bulgarian",
+    "name-days",
+    "именни-дни",
+    "calendar",
+    "transliteration",
+    "bulgaria",
+    "orthodox"
+  ],
+  "author": "KinTales",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MariyanYordanov/kintales-name-days.git"
+  },
+  "files": [
+    "src/"
+  ]
+}
